@@ -21,10 +21,6 @@ Live Demo
 🔹 Frontend:  
 [Click Here] (https://pramodini-codes.github.io/MITM-CollegeEnquiryChatBot/)
 
-🔹 Backend API:  
-[Click Here] (https://mitm-collegeenquirychatbot.onrender.com/)
-
-
 ---
 
 Tech Stack
