@@ -11,14 +11,16 @@ import filetype   # using instead of imghdr
 
 app = FastAPI()
 
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://pramodini-codes.github.io"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 # -------------------------------
 # REQUEST MODEL
 # -------------------------------
@@ -59,10 +61,10 @@ class MITMysoreChatbot:
     def get_mit_data(self):
         return {
             "about": f"""{self.college_name} is a private autonomous engineering college located in Belwadi near Mysore.
-Established: 2007 by Maharaja Educational Trust (R).
-Affiliation: VTU Belagavi | Approved by AICTE | Accredited with NAAC B++.
-Campus: 25-acre green campus with hostels, library, research labs, cafeteria, sports, and transportation.
-""",
+                Established: 2007 by Maharaja Educational Trust (R).
+                Affiliation: VTU Belagavi | Approved by AICTE | Accredited with NAAC B++.
+                Campus: 25-acre green campus with hostels, library, research labs, cafeteria, sports, and transportation.
+                """,
 
             "principal": {
                 "name": "Dr. Murali S.",
