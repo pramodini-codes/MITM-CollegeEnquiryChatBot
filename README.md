@@ -19,7 +19,7 @@ This chatbot provides information about:
 Live Demo
 
 🔹 Frontend:  
-[Click Here](https://pramodini-codes.github.io/MITM-CollegeEnquiryChatBot/)
+[Click Here] (https://pramodini-codes.github.io/MITM-CollegeEnquiryChatBot/)
 
 🔹 Backend API:  
 [Click Here] (https://mitm-collegeenquirychatbot.onrender.com/)
