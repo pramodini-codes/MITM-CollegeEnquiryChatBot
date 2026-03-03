@@ -9,8 +9,7 @@ const fileInput = document.querySelector("#file-input");
 const fileUploadButton = document.querySelector("#file-upload");
 
 // API (adjust if needed)
-const API_URL = "http://127.0.0.1:8000/chat";
-
+const API_URL = "https://mitm-collegeenquirychatbot.onrender.com/chat";
 // State for current outgoing message
 const userData = {
   message: "",
